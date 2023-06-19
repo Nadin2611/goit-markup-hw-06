@@ -223,9 +223,9 @@ img {
   border-radius: 50%;
 }
 
-/* .team-social-icon {
+.mobile-social-icon {
   fill: var(--light);
-} */
+}
 @media screen and (min-width: 768px) {
   .header-container {
     display: flex;
@@ -285,15 +285,14 @@ img {
 }
 
 /*-------------------------SECTION 1------------------------*/
-/* .section {
-  padding-bottom: 120px;
-} */
 
-/* .hero-container {
+.section {
+  padding-bottom: 96px;
 }
+
 .hero {
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding-top: 112px;
+  padding-bottom: 112px;
   margin: 0 auto;
   background-image: linear-gradient(
       to bottom,
@@ -302,23 +301,24 @@ img {
     ),
     url(../images/people-office.jpg);
 
-  max-width: 1440px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .hero-title {
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 36px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: var(--white-background);
   display: block;
-  max-width: 496px;
+  max-width: 320px;
   margin: 0 auto;
-  margin-bottom: 48px;
+  margin-bottom: 72px;
 }
+
 .button {
   font-family: 'Roboto', sans-serif;
   color: var(--white-background);
@@ -335,15 +335,39 @@ img {
   min-width: 169px;
   height: 56px;
   border: none;
-  transition-property: background-color;
+  /* transition-property: background-color;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
-.button:hover,
-.button:focus {
-  background-color: var(--pressed-state);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-} */
+
+@media screen and (min-width: 768px) {
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 36px;
+  }
+  .button:hover,
+  .button:focus {
+    background-color: var(--pressed-state);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .section {
+    padding-bottom: 120px;
+  }
+  .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    max-width: 1440px;
+  }
+  .hero-title {
+    margin-bottom: 48px;
+  }
+}
 
 /*-------------------------SECTION 2-----------------------*/
 /* .advantages {
