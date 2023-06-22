@@ -173,6 +173,11 @@ img {
   text-transform: capitalize;
   color: var(--dark-color);
 }
+
+.active-mobile {
+  color: var(--pressed-state);
+}
+
 .mobile-contacts {
   font-style: normal;
   margin-bottom: 48px;
@@ -370,15 +375,9 @@ img {
 }
 
 /*-------------------------SECTION 2-----------------------*/
-/* .advantages {
-  padding-top: 120px;
-}
 
-.advantages-title {
-  font-size: 36px;
-  line-height: 1.11;
-  text-transform: capitalize;
-  color: var(--dark-color);
+.advantages-icon-item {
+  display: none;
 }
 
 .visually-hidden {
@@ -392,6 +391,17 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+/* .advantages {
+  padding-top: 120px;
+}
+
+.advantages-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: var(--dark-color);
 }
 .advantages-icon-fon {
   display: flex;
