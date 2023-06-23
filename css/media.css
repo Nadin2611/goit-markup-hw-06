@@ -1,0 +1,155 @@
+@media screen and (min-width: 768px) {
+  /* ===================HEADER=================== */
+  .container {
+    max-width: 768px;
+  }
+  .nav-links {
+    display: flex;
+    gap: 40px;
+  }
+  .contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .header-btn {
+    display: none;
+  }
+  .header-container {
+    display: flex;
+    align-items: center;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+  .nav-link {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+    display: block;
+    /* padding: 24px 0; */
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .nav-link:hover,
+  .nav-link:focus {
+    color: var(--pressed-state);
+  }
+
+  .contacts {
+    font-style: normal;
+    margin-left: auto;
+  }
+  .contacts-link {
+    line-height: 1.5;
+    color: var(--body-text-color);
+    letter-spacing: 0.02em;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .active {
+    position: relative;
+    display: inline-block;
+    color: var(--pressed-state);
+  }
+  .active::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    left: 0px;
+    background: var(--pressed-state);
+    border-radius: 2px;
+    bottom: -1px;
+  }
+  .contacts-link:hover,
+  .contacts-link:focus {
+    color: var(--pressed-state);
+  }
+  /* ===================SECTION 1=================== */
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 36px;
+  }
+  .button:hover,
+  .button:focus {
+    background-color: var(--pressed-state);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+  /* ===================SECTION 2=================== */
+  .advantages-list {
+    flex-wrap: wrap;
+  }
+  .advantages-item {
+    width: calc((100% - 24px) / 2);
+  }
+  .advantages-item-title {
+    text-align: left;
+  }
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-2.jpg);
+  }
+}
+
+/* ++++++++++++++++++++++1158++++++++++++++++++++++++++++++ */
+
+@media screen and (min-width: 1158px) {
+  /* ===================HEADER=================== */
+  .container {
+    width: 100%;
+    max-width: 1158px;
+    padding: 0 15px;
+  }
+  .contacts-list {
+    flex-direction: row;
+    gap: 40px;
+  }
+  /* ===================SECTION 1=================== */
+  .section {
+    padding-bottom: 120px;
+  }
+  .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    max-width: 1440px;
+  }
+  .hero-title {
+    margin-bottom: 48px;
+  }
+
+  /* ===================SECTION 2=================== */
+  .advantages {
+    padding-top: 120px;
+  }
+  .advantages-icon-fon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: var(--light);
+    padding: 24px 100px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  .advantages-list {
+    display: flex;
+    gap: 24px;
+  }
+}
