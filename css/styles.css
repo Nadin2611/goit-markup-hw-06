@@ -285,9 +285,6 @@ img {
   padding-top: 96px;
 }
 
-.advantages-icon-item {
-  display: none;
-}
 .advantages-list {
   display: flex;
   flex-direction: column;
@@ -591,18 +588,6 @@ img {
 
 /* 
 
-.footer-social-container {
-  margin-right: 80px;
-}
-.footer-social-title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--white-background);
-  margin-bottom: 16px;
-}
-
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: var(--green);
@@ -612,11 +597,8 @@ img {
 
 
 .email-form {
-  display: flex;
-  gap: 24px;
-  max-width: 453px;
-  align-self: center;
-}
+   max-width: 453px;
+  }
 
 
 

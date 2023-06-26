@@ -205,6 +205,7 @@
   }
   .advantages-item {
     width: calc((100%-72px) / 4);
+    max-width: 264px;
   }
   .advantages-item-title {
     font-weight: 500;
@@ -213,7 +214,6 @@
   }
 
   .advantages-icon-fon {
-    display: block;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -223,6 +223,10 @@
     border-radius: 4px;
     margin-bottom: 8px;
   }
+  .advantages-icon-item {
+    display: block;
+  }
+
   .advantages-list {
     display: flex;
     gap: 24px;
@@ -298,5 +302,8 @@
   .footer-text {
     width: 264px;
     margin-left: 0;
+  }
+  .footer-email-container {
+    margin-left: 80px;
   }
 }
