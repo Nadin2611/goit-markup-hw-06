@@ -605,20 +605,17 @@ img {
  */
 
 /*===================================PORTFOLIO======================================*/
-/* .button-section {
-  padding-top: 96px;
-  padding-bottom: 120px;
-}
-.button-container {
-}
 
-.filter-title {
+.button-section {
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 .button-list {
   display: flex;
-  justify-content: center;
-  gap: 24px;
-  margin-bottom: 72px;
+  flex-wrap: wrap;
+  gap: 16px 24px;
+  margin-bottom: 48px;
+  width: 320px;
 }
 .button-item {
   font-family: 'Roboto', sans-serif;
@@ -630,7 +627,7 @@ img {
   cursor: pointer;
   border: 1px solid var(--accent);
   letter-spacing: 0.04em;
-  padding: 12px 24px;
+  padding: 8px 16px;
   border-radius: 4px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -646,6 +643,30 @@ img {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
+.services-cover-text {
+  display: none;
+}
+.services-cover-block {
+  min-width: 320px;
+  max-width: 396px;
+  margin: 0 auto;
+}
+.services-list {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.services-item {
+}
+
+.services-list > img {
+  max-width: 100%;
+}
+
+/* 
+
 .services-list {
   display: flex;
   flex-wrap: wrap;
@@ -659,8 +680,7 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.services-item {
-}
+
 
 .services-link:hover,
 .services-link:focus {

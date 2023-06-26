@@ -1,3 +1,12 @@
+@media screen and (max-width: 427px) {
+  .mobile-tel {
+    font-size: 24px;
+  }
+  .email-input {
+    width: 100%;
+  }
+}
+
 @media screen and (min-width: 768px) {
   /* ===================HEADER=================== */
   .container {
@@ -171,6 +180,20 @@
         url(../images/people-office-2.jpg);
     }
   }
+  /*===================================PORTFOLIO======================================*/
+  .button-section {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+
+  .button-list {
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 64px;
+    width: 568px;
+    margin-right: 0;
+  }
 }
 
 /* ++++++++++++++++++++++1158++++++++++++++++++++++++++++++ */
@@ -305,5 +328,17 @@
   }
   .footer-email-container {
     margin-left: 80px;
+  }
+  /*===================================PORTFOLIO======================================*/
+  .button-section {
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+  .button-list {
+    margin-bottom: 72px;
+    min-width: 1158px;
+  }
+  .button-item {
+    padding: 12px 24px;
   }
 }
