@@ -194,151 +194,163 @@
     width: 568px;
     margin-right: 0;
   }
-}
 
-/* ++++++++++++++++++++++1158++++++++++++++++++++++++++++++ */
+  /* ++++++++++++++++++++++1158++++++++++++++++++++++++++++++ */
 
-@media screen and (min-width: 1158px) {
-  /* ===================HEADER=================== */
-  .container {
-    width: 100%;
-    max-width: 1158px;
-    padding: 0 15px;
+  @media screen and (min-width: 1158px) {
+    /* ===================HEADER=================== */
+    .container {
+      width: 100%;
+      max-width: 1158px;
+      padding: 0 15px;
+    }
+    .contacts-list {
+      flex-direction: row;
+      gap: 40px;
+    }
+    /* ===================SECTION 1=================== */
+    .section {
+      padding-bottom: 120px;
+    }
+    .hero {
+      padding-top: 188px;
+      padding-bottom: 188px;
+      max-width: 1440px;
+    }
+    .hero-title {
+      margin-bottom: 48px;
+    }
+
+    /* ===================SECTION 2=================== */
+    .advantages {
+      padding-top: 120px;
+    }
+    .advantages-item {
+      width: calc((100%-72px) / 4);
+      max-width: 264px;
+    }
+    .advantages-item-title {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 1.2;
+    }
+
+    .advantages-icon-fon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 112px;
+      background-color: var(--light);
+      padding: 24px 100px;
+      border-radius: 4px;
+      margin-bottom: 8px;
+    }
+    .advantages-icon-item {
+      display: block;
+    }
+
+    .advantages-list {
+      display: flex;
+      gap: 24px;
+    }
+
+    /* ===================SECTION 3=================== */
+    .projects {
+      display: block;
+      padding-bottom: 120px;
+    }
+    .projects-title {
+      font-size: 36px;
+      line-height: 1.11;
+      text-align: center;
+      text-transform: capitalize;
+      color: var(--dark-color);
+      margin-bottom: 72px;
+    }
+    .images-list {
+      display: flex;
+      gap: 24px;
+    }
+    .image-item {
+      max-width: 100%;
+    }
+
+    /* ===================SECTION 4=================== */
+    .team {
+      padding: 120px 0;
+    }
+    .team-member {
+      width: calc((100% - 72px) / 4);
+    }
+    .team-social-list {
+      padding: 32px 0;
+    }
+    /* ===================SECTION 5=================== */
+    .customers {
+      padding-bottom: 120px;
+      padding-top: 120px;
+    }
+
+    .customers-list {
+      align-items: flex-start;
+      gap: 24px;
+    }
+
+    .customers-item {
+      width: calc((100% - 120px) / 6);
+    }
+
+    .customers-link {
+      width: 100%;
+      height: 100%;
+      border: 1px solid var(--light-slate);
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--light-slate);
+    }
+
+    /* ===================FOOTER=================== */
+    .footer-container {
+      align-items: baseline;
+    }
+
+    .footer-logo-container {
+      max-width: 264px;
+      margin-right: 120px;
+    }
+
+    .footer-text {
+      width: 264px;
+      margin-left: 0;
+    }
+    .footer-email-container {
+      margin-left: 80px;
+    }
+    /*===================================PORTFOLIO======================================*/
+    .button-section {
+      padding-top: 100px;
+      padding-bottom: 120px;
+    }
+    .button-list {
+      margin-bottom: 72px;
+      min-width: 1158px;
+    }
+    .button-item {
+      padding: 12px 24px;
+    }
   }
-  .contacts-list {
-    flex-direction: row;
-    gap: 40px;
-  }
-  /* ===================SECTION 1=================== */
-  .section {
-    padding-bottom: 120px;
-  }
+
+  /* @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .hero {
-    padding-top: 188px;
-    padding-bottom: 188px;
-    max-width: 1440px;
-  }
-  .hero-title {
-    margin-bottom: 48px;
-  }
-
-  /* ===================SECTION 2=================== */
-  .advantages {
-    padding-top: 120px;
-  }
-  .advantages-item {
-    width: calc((100%-72px) / 4);
-    max-width: 264px;
-  }
-  .advantages-item-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-  }
-
-  .advantages-icon-fon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
-    background-color: var(--light);
-    padding: 24px 100px;
-    border-radius: 4px;
-    margin-bottom: 8px;
-  }
-  .advantages-icon-item {
-    display: block;
-  }
-
-  .advantages-list {
-    display: flex;
-    gap: 24px;
-  }
-
-  /* ===================SECTION 3=================== */
-  .projects {
-    display: block;
-    padding-bottom: 120px;
-  }
-  .projects-title {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    text-transform: capitalize;
-    color: var(--dark-color);
-    margin-bottom: 72px;
-  }
-  .images-list {
-    display: flex;
-    gap: 24px;
-  }
-  .image-item {
-    max-width: 100%;
-  }
-
-  /* ===================SECTION 4=================== */
-  .team {
-    padding: 120px 0;
-  }
-  .team-member {
-    width: calc((100% - 72px) / 4);
-  }
-  .team-social-list {
-    padding: 32px 0;
-  }
-  /* ===================SECTION 5=================== */
-  .customers {
-    padding-bottom: 120px;
-    padding-top: 120px;
-  }
-
-  .customers-list {
-    align-items: flex-start;
-    gap: 24px;
-  }
-
-  .customers-item {
-    width: calc((100% - 120px) / 6);
-  }
-
-  .customers-link {
-    width: 100%;
-    height: 100%;
-    border: 1px solid var(--light-slate);
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--light-slate);
-  }
-
-  /* ===================FOOTER=================== */
-  .footer-container {
-    align-items: baseline;
-  }
-
-  .footer-logo-container {
-    max-width: 264px;
-    margin-right: 120px;
-  }
-
-  .footer-text {
-    width: 264px;
-    margin-left: 0;
-  }
-  .footer-email-container {
-    margin-left: 80px;
-  }
-  /*===================================PORTFOLIO======================================*/
-  .button-section {
-    padding-top: 100px;
-    padding-bottom: 120px;
-  }
-  .button-list {
-    margin-bottom: 72px;
-    min-width: 1158px;
-  }
-  .button-item {
-    padding: 12px 24px;
-  }
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-2.jpg);
+  } */
 }
