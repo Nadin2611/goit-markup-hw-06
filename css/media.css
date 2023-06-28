@@ -72,6 +72,8 @@
     margin-left: auto;
   }
   .contacts-link {
+    font-size: 12px;
+    font-family: Roboto;
     line-height: 1.5;
     color: var(--body-text-color);
     letter-spacing: 0.02em;
@@ -185,13 +187,19 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px 24px;
+  }
+  .footer-logo-container {
+    margin-bottom: 0px;
   }
   .footer-logo {
     margin-right: auto;
   }
   .footer-text {
     width: 264px;
+  }
+  .footer-social-container {
+    margin-bottom: 0px;
   }
   .footer-social-title {
     margin-right: auto;
@@ -320,7 +328,9 @@
     font-size: 20px;
     line-height: 1.2;
   }
-
+  .advantages-item-text {
+    font-weight: 400;
+  }
   .advantages-icon-fon {
     display: flex;
     align-items: center;
@@ -367,9 +377,6 @@
   }
   .team-member {
     width: calc((100% - 72px) / 4);
-  }
-  .team-social-list {
-    padding: 32px 0;
   }
 
   .team-social-link {
@@ -419,6 +426,7 @@
   .footer-container {
     flex-wrap: nowrap;
     align-items: baseline;
+    gap: 0;
   }
 
   .footer-logo-container {
